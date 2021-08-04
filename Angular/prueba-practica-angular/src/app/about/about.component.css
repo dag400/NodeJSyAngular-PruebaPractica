@@ -14,18 +14,18 @@ body{
 }
 
 .about-section{
-    background: url(../img/about.jpg) no-repeat left;
+    background: url(../recursos/img/about.jpg) no-repeat left;
     background-size:185%;
     background-color: #fdfdfd;
     overflow: hidden;
-    padding: 200px 0;
+    padding: 180px 0;
 }
 
 .inner-container{
     width: 55%;
     float: right;
     background-color: #fdfdfd;
-    padding: 120px;
+    padding: 90px;
 }
 
 .inner-container h1{

@@ -15,7 +15,7 @@ import { JobsComponent } from './jobs/jobs.component';
 import { PeopleComponent } from './people/people.component';
 import { AboutComponent } from './about/about.component';
 import { MatTableModule } from '@angular/material/table';
-import { TableComponent } from './table/table.component';
+import { TableComponent } from './recursos/table/table.component';
 import { MatPaginatorModule } from '@angular/material/paginator';
 
 
