@@ -14,6 +14,11 @@ import { MatListModule } from '@angular/material/list';
 import { JobsComponent } from './jobs/jobs.component';
 import { PeopleComponent } from './people/people.component';
 import { AboutComponent } from './about/about.component';
+import { MatTableModule } from '@angular/material/table';
+import { TableComponent } from './table/table.component';
+import { MatPaginatorModule } from '@angular/material/paginator';
+
+
 
 @NgModule({
   declarations: [
@@ -21,7 +26,8 @@ import { AboutComponent } from './about/about.component';
     RootNavComponent,
     JobsComponent,
     PeopleComponent,
-    AboutComponent
+    AboutComponent,
+    TableComponent
   ],
   imports: [
     BrowserModule,
@@ -32,7 +38,9 @@ import { AboutComponent } from './about/about.component';
     MatButtonModule,
     MatSidenavModule,
     MatIconModule,
-    MatListModule
+    MatListModule,
+    MatTableModule,
+    MatPaginatorModule    
   ],
   providers: [],
   bootstrap: [AppComponent]
