@@ -5,15 +5,17 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './table.component.html',
   styleUrls: ['./table.component.css']
 })
-export class TableComponent implements OnInit {
-  displayedColumns: string[] = ['id', 'name', 'country', 'createdAt'];
-  dataSource = ELEMENT_DATA;
-  constructor() { }
 
-  ngOnInit(): void {}
+export class TableComponent implements OnInit {
+  displayedColumns: string[] = ['id', 'name', 'country', 'createdAt', 'opcion'];
+  dataSource = ELEMENT_DATA;  
+  
+  constructor() { }
+  ngOnInit() { }
+
 }
 
-export interface PeriodicElement {
+export interface Data {
   id: string;
   name: string;
   country: string;
@@ -21,7 +23,9 @@ export interface PeriodicElement {
   avatar: string;
 }
 
-const ELEMENT_DATA: PeriodicElement[] = [
+
+
+const ELEMENT_DATA: Data[] = [
   {
     "id": '1', name: "Kylee Marks Jr.", country: "Jordan", createdAt: "2020-10-05T06:58:53.432Z" ,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/swooshycueb/128.jpg",},
   { 

@@ -19,7 +19,6 @@ import { TableComponent } from './recursos/table/table.component';
 import { MatPaginatorModule } from '@angular/material/paginator';
 
 
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -40,7 +39,7 @@ import { MatPaginatorModule } from '@angular/material/paginator';
     MatIconModule,
     MatListModule,
     MatTableModule,
-    MatPaginatorModule    
+    MatPaginatorModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
